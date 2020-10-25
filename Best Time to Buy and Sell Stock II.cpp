@@ -23,6 +23,7 @@
 * 0 <= prices[i] <= 10 ^ 4
 */
 
+//Time complexity: O(N). Space complexity: O(1).
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
