@@ -17,7 +17,7 @@
 */
 
 
-//Solution 1: Brute force. Time complexity: O(N^2)
+//Solution 1: Brute force. Time complexity: O(N^2). Space complexity: O(1).
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -35,7 +35,7 @@ public:
     }
 };
 
-//Solution 2: Map solution. Time complexity: O(N)
+//Solution 2: Map solution. Time complexity: O(N). Space complexity: O(N).
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
