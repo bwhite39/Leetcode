@@ -10,6 +10,7 @@
 * Note: You may assume the string contains only lowercase English letters.
 */
 
+//Time complexity: O(N). Space complexity: O(N).
 class Solution {
 public:
     int firstUniqChar(string s) {
@@ -17,8 +18,7 @@ public:
         
         for(int i = 0; i < s.length(); i++){
             m[s[i]] += 1;
-        }
-        
+        }        
         for(int i = 0; i < s.length(); i++){
             if(m[s[i]] == 1){
                 return i;
