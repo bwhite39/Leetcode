@@ -24,7 +24,7 @@
 * Only one valid answer exists.
 */
 
-// Brute force solution
+// Brute force solution. Time complexity: O(N^2)
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {       
