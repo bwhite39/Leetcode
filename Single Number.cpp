@@ -19,7 +19,7 @@
 * Each element in the array appears twice except for one element which appears only once.
 */
 
-//Solution 1: Map approach
+//Solution 1: Map approach. Time complexity: O(N). Space complexity: O(N).
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -37,12 +37,12 @@ public:
     }
 };
 
-/* Solution 2: Bit manipulation
+/* Solution 2: Bit manipulation. Time complexity: O(N). Space complexity: O(1).
 * Explanation: XORing any number with itslef will equal zero.
 * Ex. 2 ^ 2 = 0, 2 ^ 2 ^ 4 ^ 4 = 0. 
 * XORing a 0 and some bit will just return the bit.
 * Ex. 2 ^ 2 ^ 5 = 5
-/*
+*/
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
