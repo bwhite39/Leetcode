@@ -26,6 +26,7 @@
 * pow(-2,31) <= n <= pow(2,31) - 1
 */
 
+//Time complexity: O(N). Space complexity O(1).
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -34,8 +35,7 @@ public:
         
         while(i < n){
             i *= 2;
-        }
-        
+        }     
         if(i == n){
             return true;
         }
